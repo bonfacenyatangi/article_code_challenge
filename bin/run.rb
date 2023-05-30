@@ -1,6 +1,6 @@
-require_relative 'author'
-require_relative 'magazine'
-require_relative 'article'
+require_relative '../lib/author.rb'
+require_relative '../lib/magazine.rb'
+require_relative '../lib/article.rb'
 
 # Create instances and test the methods here
 author1 = Author.new("John Doe")
